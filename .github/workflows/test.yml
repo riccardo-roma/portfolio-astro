@@ -8,5 +8,4 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      - id: Running astro check
-        run: astro check
+      - run: astro check
