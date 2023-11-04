@@ -5,6 +5,8 @@ on:
     types: [opened, reopened]
     
 jobs:
-  check:
-    name: Running astro check
-    run: astro check
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - id: Running astro check
+      - run: astro check
