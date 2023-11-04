@@ -1,7 +1,7 @@
 ---
 inProgress: false
-title: Project title
+title: Web Scraping
 img_alt: project image alt text
-link: https://github.com/veranikabarel?tab=repositories
-tags: ['React', 'CSS', 'Typescript']
+link: https://github.com/riccardo-roma/university-data-analytics-project/tree/main/web-scraping
+tags: ['Web Scraping', 'Analytics']
 ---

@@ -14,14 +14,14 @@ import Button from '@components/ui/Button.astro';
 				Hi! My name is <span class="text-orange">Riccardo Roma</span> and I am a Data Analyst based in London, UK.
 			</h1>
 		</div>
-		<div class="mb-10">
-			<Button style={'primary'} size={'lg'} class={'flex'} name="learn more">Learn more</Button>
-		</div>
+		<div class="mb-10"><a href="#about">
+			<Button style={'primary'} size={'lg'} class={'flex'} name="learn more" >Learn more</Button>
+		</a></div>
 	</div>
 	<div data-testid="hero-img" class="mb-10 flex w-1/2 items-center justify-center">
 		<Image
 			src={heroImage}
-			alt="Coding girl"
+			alt="Profile picture"
 			aspectRatio="4:4"
 			format="png"
 			width={600}
